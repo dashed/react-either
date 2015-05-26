@@ -10,7 +10,7 @@ function either(Component = null, AltComponent = null, shouldRender = DEFAULT_SH
     const ComponentDisplayName = Component && Component.displayName || 'null';
     const AltComponentDisplayName = AltComponent && AltComponent.displayName || 'null';
 
-    const DetourContainer = React.createClass({
+    const EitherContainer = React.createClass({
 
         displayName: `${ComponentDisplayName}.${AltComponentDisplayName}.EitherContainer`,
 
@@ -21,5 +21,5 @@ function either(Component = null, AltComponent = null, shouldRender = DEFAULT_SH
         }
     });
 
-    return DetourContainer;
+    return EitherContainer;
 }
