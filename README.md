@@ -6,7 +6,7 @@
 ## Usage
 
 ```
-$ npm install --save minitrue
+$ npm install --save react-either
 ```
 
 ```js
