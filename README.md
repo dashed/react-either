@@ -18,7 +18,7 @@ either(Component, AltComponent, function(props) {
     // ...
 
     // return true to render Component; otherwise render AltComponent
-    return cond ? true : false;
+    return cond;
 });
 ```
 
