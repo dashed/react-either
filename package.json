@@ -1,6 +1,6 @@
 {
   "name": "react-either",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Higher-order component to conditionally render a component or an alternative component",
   "main": "modules/index.js",
   "scripts": {
